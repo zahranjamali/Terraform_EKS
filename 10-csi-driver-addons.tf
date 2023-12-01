@@ -7,3 +7,4 @@ resource "aws_eks_addon" "csi_driver" {
 
 
 #aws eks describe-addon-versions --addon-name aws-ebs-csi-driver
+#worked succesfully after supporting driver to  1.28 k8s version 
